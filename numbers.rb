@@ -1,6 +1,6 @@
 ##Numbers
 x = 5
-y = 3
+y = 3.0
 
 #addition
 sum = x + y
