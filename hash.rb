@@ -19,3 +19,22 @@ puts ""
 #Removing from a hash
 person_hash.delete("colour")
 puts person_hash
+
+puts ""
+#Iterating over hashes
+person_hash.each do |key, value|
+    puts "#{key} is #{value}"
+end
+
+puts ""
+#has_key? used to check if hash contains a specific key and returns true if found
+puts person_hash.has_key?("name") #returns true
+puts person_hash.has_key?("height")#returns false
+
+puts ""
+#select method used with a block returns key-value pairs that satisfy condition on  the block
+puts person_hash.select{ |key, value| key == "gender"}
+
+puts ""
+#Fetch method returns valuues of they key u specify if it exists in the hash
+puts person_hash.fetch("age")
