@@ -1,4 +1,5 @@
 months = ["January", "February", "March", "April", "May", "June", "July"]
+#access specific index using its index
 puts months[6]
 
 #Add mor items to the array
