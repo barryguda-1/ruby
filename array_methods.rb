@@ -53,3 +53,18 @@ puts array_select.join("*")
 array_select.each do |element|
     puts element
 end
+
+#.map method iterate over each element of the array allowing you to perform actions on them.
+#they return an array containing the transformed elements
+
+array_select.map { |element| element * 2 }
+    puts element
+end
+
+#.uniq method take in an array containing duplicate elements and returns a copy of that array
+
+array_uniq = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 8]
+puts array_uniq.uniq
+
+array_concat = [0, 1, 2, 3, 4]
+array_concat.concat([5, 6, 7], [8, 9, 10])
