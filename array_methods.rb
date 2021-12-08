@@ -53,6 +53,8 @@ puts array_select.join("*")
 array_select.each do |element|
     puts element
 end
+##Much like each method however method represents index number as opposed to values at each index
+array_select.each_index { |i| puts "This is index #{i}" } 
 
 #.map method iterate over each element of the array allowing you to perform actions on them.
 #they return an array containing the transformed elements
