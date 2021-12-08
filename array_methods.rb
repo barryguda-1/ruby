@@ -56,6 +56,8 @@ end
 ##Much like each method however method represents index number as opposed to values at each index
 array_select.each_index { |i| puts "This is index #{i}" } 
 
+##Works same as each index howerver both index and value are passed and you can also manipulate them as below
+array_select.each_wtih_index { |val, idx| puts "#{idx + 1}. #{val}"} 
 #.map method iterate over each element of the array allowing you to perform actions on them.
 #they return an array containing the transformed elements
 
@@ -64,7 +66,6 @@ array_select.map { |element| element * 2 }
 end
 array_select.collect { |element| element**2 } ##collect method used as an alas to map
 #.uniq method take in an array containing duplicate elements and returns a copy of that array
-
 array_uniq = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 8]
 puts array_uniq.uniq
 
