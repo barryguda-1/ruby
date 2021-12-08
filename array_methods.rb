@@ -60,7 +60,7 @@ end
 array_select.map { |element| element * 2 }
     puts element
 end
-
+array_select.collect { |element| element**2 } ##collect method used as an alas to map
 #.uniq method take in an array containing duplicate elements and returns a copy of that array
 
 array_uniq = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 6, 7, 8]
