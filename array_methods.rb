@@ -12,6 +12,10 @@ puts "Returns first n elements: #{take3}"
 drop3 = array.drop(3)
 puts "Return elements after n <drop(3)> elements: #{drop3}"
 
+arr = [15, 7, 18, 5, 12, 8, 5, 1]
+arr.index(5) ##returns the index value for the given element in the array
+
+arr[5] ##returns the value at index 5 in the array
 #.pop will permanently remove the last element of an array
 pop_exp = array.pop
 puts "Return elements after pop: #{pop_exp}"
