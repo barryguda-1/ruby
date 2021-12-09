@@ -2,6 +2,8 @@ person_hash = {
     "name" => "Jonathan",
     "age"  => 24
 }
+##or like below for ruby v1.9
+person_hash = {height: '6 ft', weight: '160lbs'}
 puts person_hash
 
 #Person_hash = Hash.new --> another way of creating a hash using new keyword
