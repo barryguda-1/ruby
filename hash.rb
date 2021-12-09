@@ -16,6 +16,8 @@ puts ""
 person_hash["gender"] = 'male'
 person_hash["colour"] = 'Black'
 puts person_hash
+# OR for new Version of ruby
+person_hash[:age] = 65
 
 puts ""
 #Removing from a hash
