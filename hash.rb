@@ -36,11 +36,22 @@ puts ""
 #has_key? used to check if hash contains a specific key and returns true if found
 puts person_hash.has_key?("name") #returns true
 puts person_hash.has_key?("height")#returns false
-
+or
+person_hash.key?(value_of_key)
+##Check if hash is empty or not
+person_hash.empty? 
 puts ""
 #select method used with a block returns key-value pairs that satisfy condition on  the block
 puts person_hash.select{ |key, value| key == "gender"}
-
+##or lke below for comparison
+person_hash.select{ |k,v| (k == :hair) || (v == "barry")}
+##fetch allow you to fetch key and it'll return the value for the key
+person.fetch(:weight)
+##to_a returns the array version of the hash changes are not permanent tho
+person_hash.to_a
+##retrieve all keys and values for a given hash
+person_hash.values
+person_hash.keys
 puts ""
 #Fetch method returns valuues of they key u specify if it exists in the hash
 puts person_hash.fetch("age")
