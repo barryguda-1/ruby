@@ -20,6 +20,8 @@ puts person_hash
 person_hash[:age] = 65
 
 puts ""
+##merge two hashes used exlamation to make the change permanent
+person_hash.merge!(name_of_hash)
 #Removing from a hash
 person_hash.delete("colour")
 puts person_hash
