@@ -36,6 +36,7 @@ puts ""
 #has_key? used to check if hash contains a specific key and returns true if found
 puts person_hash.has_key?("name") #returns true
 puts person_hash.has_key?("height")#returns false
+person_hash.has_value?("input_value") ##return value being serched
 or
 person_hash.key?(value_of_key)
 ##Check if hash is empty or not
