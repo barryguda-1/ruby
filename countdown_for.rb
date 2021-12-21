@@ -35,3 +35,6 @@ while x <= 10
 
     x += 1
 end
+
+#Practice_each .rb
+

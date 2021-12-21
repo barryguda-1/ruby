@@ -31,4 +31,3 @@ while x != "STOP" do
     ans = gets.chomp
     puts "Want me to ask you again?"
     x = gets.chomp
-end
