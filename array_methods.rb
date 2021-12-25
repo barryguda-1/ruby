@@ -5,6 +5,8 @@ puts array.length
 puts array.first
 #.last accesses the last elemrnt of the array
 puts array.last
+#.count takes a counter on the number  a given value appears in an array
+array.count(0)#insert value within () like so...puts out 1
 #.take returns the first n elements of the array
 take3 = array.take(3)
 puts "Returns first n elements: #{take3}"
