@@ -66,7 +66,7 @@ end
 array_select.each_index { |i| puts "This is index #{i}" } 
 
 ##Works same as each index howerver both index and value are passed and you can also manipulate them as below
-array_select.each_wtih_index { |val, idx| puts "#{idx + 1}. #{val}"} 
+array_select.each_with_index { |val, idx| puts "#{idx + 1}. #{val}"} 
 #.map method iterate over each element of the array allowing you to perform actions on them.
 #they return an array containing the transformed elements
 
