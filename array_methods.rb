@@ -80,3 +80,18 @@ puts array_uniq.uniq
 
 array_concat = [0, 1, 2, 3, 4]
 array_concat.concat([5, 6, 7], [8, 9, 10])
+
+
+#each_char and the char method used to interact with characters/strings
+
+"Barry is a systems engineer".each_char {
+  |character| puts character
+}
+#another iteraration specifies each single element
+
+some_string = "Barry is a systems engineer"
+some_string.each_char {
+  |character| puts character
+}
+
+puts some_string.chars
